@@ -2760,3 +2760,7 @@ fieldset {
 .contact-us .contact-us-box form button {
     padding: 15px 26px;
 }
+.site-logo{
+    /* width: 100px; */
+    height: 80px;
+}

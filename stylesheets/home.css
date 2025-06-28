@@ -1,0 +1,25 @@
+.loader-logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+  .img {
+    vertical-align: middle;
+    height: 248px;
+}
+
+/* Optional: Adjust for smaller screens */
+@media (max-width: 768px) {
+  .service-image {
+    max-width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-image {
+    max-width: 40px;
+  }
+}
+
+
