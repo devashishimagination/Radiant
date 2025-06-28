@@ -18,8 +18,105 @@
 
 @media (max-width: 480px) {
   .service-image {
-    max-width: 40px;
+
+.service-image {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.service-image img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  width: 180px; /* Default logo width */
+}
+
+/* Responsive size adjustments */
+@media (max-width: 768px) {
+  .service-image img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-image img {
+    width: 120px;
+  }
+}
+  }
+}
+
+.main-logo img {
+  height: 80px;         /* Default height for desktop */
+  width: auto;
+  max-width: 100%;
+}
+
+/* 📱 Adjust logo size for tablets and mobile screens */
+@media (max-width: 768px) {
+  .main-logo img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-logo img {
+    height: 50px;
+  }
+}
+
+.service-image {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.service-image img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  width: 180px; /* Default logo width */
+}
+
+/* Responsive size adjustments */
+@media (max-width: 768px) {
+  .service-image img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-image img {
+    width: 120px;
   }
 }
 
 
+
+
+/* Ensure the container handles spacing and centering */
+.widget-video-2 {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 0px;
+}
+
+/* Responsive video wrapper to maintain 16:9 aspect ratio */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Actual iframe styling */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
